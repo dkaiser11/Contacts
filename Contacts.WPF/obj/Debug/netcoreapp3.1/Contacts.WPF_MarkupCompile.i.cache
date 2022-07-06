@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\kaise\source\repos\Contacts\Contacts.WPF\obj\Debug\netcoreapp3.1\
+C:\Users\kaise\source\repos\dkaiser11\Contacts\Contacts.WPF\obj\Debug\netcoreapp3.1\
 Contacts.WPF
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-C:\Users\kaise\source\repos\Contacts\Contacts.WPF\App.xaml
+C:\Users\kaise\source\repos\dkaiser11\Contacts\Contacts.WPF\App.xaml
 111243044409
 
-291977771264
-2041212670512
+29-490218649
+203-745418456
 Controls\ContactListView\ContactListControl.xaml;Controls\ContactListView\ContactListItemControl.xaml;MainWindow.xaml;Styles\Buttons.xaml;Styles\Colors.xaml;Styles\Fonts.xaml;Styles\TextBlocks.xaml;Styles\TextBoxes.xaml;Styles\Views.xaml;Views\ContactListView.xaml;Views\ContactView.xaml;
 
 True
