@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>9688c8b1-5d3d-4fa8-9920-1e8c5f00d8e0</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Contacts</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Base\AsyncCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Base\IAsyncCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Base\IErrorHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Base\OrderedList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Base\TaskUtilities.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ContactListModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\DataModels\ContactDataModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Base\BaseViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Base\RelayCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ContactListViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ContactViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Base\ViewModelLocator.cs" />
+    <Compile Include="..\Contacts\Models\DataModels\ApplicationPage.cs" />
+  </ItemGroup>
+</Project>
